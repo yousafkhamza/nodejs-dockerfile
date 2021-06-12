@@ -53,8 +53,10 @@ Argument explanation:
 -d     <----- Detach the container otherwise its try to enter the container
 ```
 ### Screenshots 
+
 _Build a container from previously created image_
 ![alt text](https://i.ibb.co/C24qGWw/container-intilaze-from-image-and-its-up.png)
+
 _Container running on 80 port and the output_
 ![alt text](https://i.ibb.co/xqHf7m4/image-build-1.png)
 
