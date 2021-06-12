@@ -64,9 +64,10 @@ _Build a container from previously created image_
 
 ![alt text](https://i.ibb.co/C24qGWw/container-intilaze-from-image-and-its-up.png)
 
-_Container running on 80 port and the output_
+_Container running on 80 port and output_
 
 ![alt text](https://i.ibb.co/xqHf7m4/image-build-1.png)
+![alt text]()
 
 # _Additional Informations_
 
