@@ -41,7 +41,7 @@ docker image ls <------------------ image will list here
 _Downloading the docker file from Git and build a image_ 
 ![alt text](https://i.ibb.co/xqHf7m4/image-build-1.png)
 
-_Build is completed and image is created_
+_Build completed and image is created_
 ![alt text](https://i.ibb.co/yBRj2sk/image-build-2.png)
 
 ---
