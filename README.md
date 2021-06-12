@@ -36,6 +36,7 @@ docker build -t <your_image_name:tag> .
 #eg: docker build -t nodejs:1.1 .
 docker image ls <------------------ image will list here
 ```
+
 ### Screenshots
 
 _Downloading the docker file from Git and build a image_ 
@@ -46,7 +47,9 @@ _Build completed and image is created_
 
 ---
 # How to build a Container from the image
+
 _Stpes_
+
 ```sh
 docker container run --name node -p 80:3000 -d nodejs:1.1
 docker container ls  <--------- container listing with status
@@ -58,12 +61,15 @@ Argument explanation:
 ### Screenshots 
 
 _Build a container from previously created image_
+
 ![alt text](https://i.ibb.co/C24qGWw/container-intilaze-from-image-and-its-up.png)
 
 _Container running on 80 port and the output_
+
 ![alt text](https://i.ibb.co/xqHf7m4/image-build-1.png)
 
 # _Additional Informations_
+
 ---
 ## _Push Image to Docker Hub (upload docker image to registry)_
 _I have uploaded the same Docker image to [Docker hub]("https://hub.docker.com/"). Also, why we use docker hub it's a registry of docker and we can upload our image to docker hub and then we can download the image any system like a git hub_
@@ -72,10 +78,13 @@ _I have uploaded the same Docker image to [Docker hub]("https://hub.docker.com/"
 ```sh
 docker login <----------- login with your credentials which you use in docker hub
 ```
+
 _Docker Login_
 ![alt text](https://i.ibb.co/L8kRdz4/docker-login.png)
+
 2. _Docker Push_
 > _docker push is working with your docker hub username so you need to change the image name with your username_
+
 ```sh
 docker tag nodejs:1.1  <your_username>/<image_name>:tag
 docker push <your_username>/<image_name>:tag
@@ -83,9 +92,12 @@ docker push <your_username>/<image_name>:tag
 docker tag nodejs:1.1 yousafkhamza/nodejs:1.1        <------- tag is using for rename but the old image is alive but both are using same image id
 docker push yousafkhamza/nodejs:1.1
 ```
+
 _Docker tag and push_
 ![alt text](https://i.ibb.co/HzRxVCb/tag-and-push.png)
+
 ---
+
 ## _How to pull this image from Docker hub(Download image from registry)_
 _Download image from Docker hub and it no needs to login docker hub._
 ```sh
@@ -93,6 +105,7 @@ docker pull <your_username>/<image_name>:tag
 # eg:
 docker pull yousafkhamza/nodejs:1.1
 ```
+
 _Docker pull from Docker hub_
 ![alt text](https://i.ibb.co/gZkb9RD/pull.png)
 ---
