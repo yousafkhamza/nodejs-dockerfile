@@ -22,7 +22,7 @@ It's a sample Dockerfile. Also, it's creating a small size container that includ
 # Installation 
 
 - [Docker installtion]("https://docs.docker.com/engine/install/ubuntu/") 
-- Pre-installed [docker terminal]("https://labs.play-with-docker.com/") for biginners for lerning purpose.
+- Pre-installed [docker terminal]("https://labs.play-with-docker.com/") for biginners and it used for lerning purpose.
 
 ---
 # How to build a image with Dockerfile
