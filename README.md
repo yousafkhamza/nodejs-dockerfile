@@ -131,3 +131,8 @@ CMD [ "app.js" ]              <--------- CMD is working the same image default c
 
 It's just a basic explanation for installing docker and how write Docker file and image and container building with a smallest nodejs. I hope you guys are understood. If you have any doubts regarding the Repo please ping me via LinkedIn.
 
+<p align="center">
+<a href="mailto:yousaf.k.hamza@gmail.com"><img src="https://img.shields.io/badge/-yousaf.k.hamza@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/yousafkhamza"><img src="https://img.shields.io/badge/-Linkedin-blue"/></a>
+<a href="https://techbit-new.blogspot.com/"><img src="https://img.shields.io/badge/-Blogger-orange"/></a>
+
