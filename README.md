@@ -30,8 +30,11 @@ _Steps:_
 ```sh
 yum install docker -y
 yum install git -y
-git clone https://github.com/yousafkhamza/nodejs-sample-docker
-cd nodejs-sample-docker/
+git clone https://github.com/yousafkhamza/nodejs-dockerfile.git
+cd nodejs-dockerfile
+```
+_building steps:_
+```sh
 docker build -t <your_image_name:tag> . 
 #eg: docker build -t nodejs:1.1 .
 docker image ls <------------------ image will list here
